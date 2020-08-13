@@ -13,6 +13,10 @@
 		06393E3224E195040037C3EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06393E3024E195040037C3EE /* Main.storyboard */; };
 		06393E3424E195070037C3EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06393E3324E195070037C3EE /* Assets.xcassets */; };
 		06393E3724E195070037C3EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06393E3524E195070037C3EE /* LaunchScreen.storyboard */; };
+		06393E3F24E196290037C3EE /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06393E3E24E196290037C3EE /* MenuViewController.swift */; };
+		06393E4424E199850037C3EE /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06393E4224E199850037C3EE /* ProductCell.swift */; };
+		06393E4524E199850037C3EE /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06393E4324E199850037C3EE /* ProductCell.xib */; };
+		06393E4724E1C8890037C3EE /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06393E4624E1C8890037C3EE /* Menu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		06393E3324E195070037C3EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06393E3624E195070037C3EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06393E3824E195070037C3EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06393E3E24E196290037C3EE /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		06393E4224E199850037C3EE /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		06393E4324E199850037C3EE /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
+		06393E4624E1C8890037C3EE /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 		06393E2924E195040037C3EE /* OnlineShop */ = {
 			isa = PBXGroup;
 			children = (
+				06393E4124E1992F0037C3EE /* MenuCells */,
 				06393E2A24E195040037C3EE /* AppDelegate.swift */,
 				06393E2C24E195040037C3EE /* SceneDelegate.swift */,
 				06393E2E24E195040037C3EE /* ViewController.swift */,
@@ -63,8 +72,19 @@
 				06393E3324E195070037C3EE /* Assets.xcassets */,
 				06393E3524E195070037C3EE /* LaunchScreen.storyboard */,
 				06393E3824E195070037C3EE /* Info.plist */,
+				06393E3E24E196290037C3EE /* MenuViewController.swift */,
+				06393E4624E1C8890037C3EE /* Menu.swift */,
 			);
 			path = OnlineShop;
+			sourceTree = "<group>";
+		};
+		06393E4124E1992F0037C3EE /* MenuCells */ = {
+			isa = PBXGroup;
+			children = (
+				06393E4224E199850037C3EE /* ProductCell.swift */,
+				06393E4324E199850037C3EE /* ProductCell.xib */,
+			);
+			path = MenuCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06393E3724E195070037C3EE /* LaunchScreen.storyboard in Resources */,
+				06393E4524E199850037C3EE /* ProductCell.xib in Resources */,
 				06393E3424E195070037C3EE /* Assets.xcassets in Resources */,
 				06393E3224E195040037C3EE /* Main.storyboard in Resources */,
 			);
@@ -138,9 +159,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06393E4724E1C8890037C3EE /* Menu.swift in Sources */,
 				06393E2F24E195040037C3EE /* ViewController.swift in Sources */,
 				06393E2B24E195040037C3EE /* AppDelegate.swift in Sources */,
+				06393E4424E199850037C3EE /* ProductCell.swift in Sources */,
 				06393E2D24E195040037C3EE /* SceneDelegate.swift in Sources */,
+				06393E3F24E196290037C3EE /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
